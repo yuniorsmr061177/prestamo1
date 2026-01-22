@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Digital | Cursos y Recursos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 35px;
+      background: #facc15;
+      color: #000;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    .cta-btn:hover { transform: scale(1.05); }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card h3 { margin-top: 0; }
+    .price {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #38bdf8;
+    }
+    ul { padding-left: 20px; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vende y Aprende con Productos Digitales</h1>
+  <p>Cursos, ebooks y recursos prácticos para aprender habilidades digitales y generar ingresos desde cualquier lugar.</p>
+  <a href="#productos" class="cta-btn">Ver Productos</a>
+</header>
+
+<section id="productos">
+  <h2 style="text-align:center;">Nuestros Productos</h2>
+  <div class="products">
+
+    <div class="card">
+      <h3>Curso de Python Desde Cero</h3>
+      <p>Aprende programación paso a paso y crea tus primeros proyectos reales.</p>
+      <ul>
+        <li>Para principiantes</li>
+        <li>Ejercicios prácticos</li>
+        <li>Proyecto final</li>
+      </ul>
+      <p class="price">US$29</p>
+      <a class="cta-btn" href="https://www.paypal.com/paypalme/TU_USUARIO_PAYPAL/29" target="_blank">Comprar ahora</a>
+    </div>
+
+    <div class="card">
+      <h3>Ebook: Programación Práctica</h3>
+      <p>Guía rápida para entender la lógica de programación.</p>
+      <ul>
+        <li>Conceptos claros</li>
+        <li>Ejemplos reales</li>
+        <li>Formato PDF</li>
+      </ul>
+      <p class="price">US$9</p>
+      <a class="cta-btn" href="https://www.paypal.com/paypalme/TU_USUARIO_PAYPAL/29" target="_blank">Comprar ahora</a>
+    </div>
+
+    <div class="card">
+      <h3>Pack Recursos para Programadores</h3>
+      <p>Plantillas, ejemplos y herramientas listas para usar.</p>
+      <ul>
+        <li>Código reutilizable</li>
+        <li>Tips profesionales</li>
+        <li>Actualizaciones futuras</li>
+      </ul>
+      <p class="price">US$19</p>
+      <a class="cta-btn" href="https://www.paypal.com/paypalme/TU_USUARIO_PAYPAL/29" target="_blank">Comprar ahora</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">¿Por qué elegirnos?</h2>
+  <ul style="max-width:700px; margin:auto; font-size:1.1rem;">
+    <li>✔️ Acceso inmediato</li>
+    <li>✔️ Aprendizaje práctico</li>
+    <li>✔️ Soporte y actualizaciones</li>
+    <li>✔️ Ideal para vender o aprender</li>
+  </ul>
+</section>
+
+<footer>
+  © 2026 · Tienda de Productos Digitales · Todos los derechos reservados<br/>
+  Pagos 100% seguros · Entrega inmediata por enlace de descarga
+</footer>
+
+</body>
+</html>
